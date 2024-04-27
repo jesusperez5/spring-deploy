@@ -12,7 +12,7 @@ public class HelloController {
   @GetMapping("/hola") // especificamos url. Si ejecutamos y buscamos http://localhost:8081/hola nos sale
   public String holaMundo() {
     System.out.println(message);
-    return "Hola Mundo!!!";
+    return "Hola Mundos!!!";
   }
 
   @GetMapping("/bootstrap")
